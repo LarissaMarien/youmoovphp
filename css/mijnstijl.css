@@ -1,0 +1,389 @@
+:root {font-size: 62.5%;}
+* {box-sizing: border-box;}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.4em;
+  color: black;
+}
+
+.logo {
+  color: #FCCA46;
+  font-size: 8rem;
+  font-variant: small-caps;
+  text-align: center;
+  height: 5rem;
+  margin: 3rem;
+}
+
+#slogan {
+  color: rgb(229,229,229);
+  font-variant: small-caps;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+}
+
+.kader {
+  padding: 2rem;
+}
+
+.login, .logout, .nieuwe, .new, .wijzigbox {
+  border: 1rem solid #FCCA46;
+  padding: 0 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+	background-color: rgb(60,60,59);
+  width: 45rem;
+}
+
+.wijzigbox {
+  margin-top: 5px;
+}
+
+.logout {
+  margin-top: 15rem;
+  margin-bottom: -10rem;
+}
+
+#plogin {
+  color: black;
+  font-variant: small-caps;
+  font-size: 2.3rem;
+}
+
+article {
+  background-color: #EAEBED;
+  padding: 0 15px 15px 15px;
+  display: block;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bekijk, #terugoverzicht {
+  font-family: 'Abel', sans-serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: black;
+  font-variant: small-caps;
+}
+
+#bekijk:hover, #terugoverzicht:hover {
+  color: #FCCA46;
+}
+
+.overzichtgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.bericht {
+	padding-top: 1rem;
+}
+
+.bericht textarea {
+	display: block;
+	width: 100%;
+	height: 10rem;
+	margin-top: 1rem;
+	font-size: 100%;
+	font-family: inherit;
+}
+
+.logout {
+  padding-top: 15px;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+}
+
+#added {
+  text-transform: uppercase;
+  text-align: center;
+  color: grey !important;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  height: 3rem;
+  font-variant: small-caps;
+}
+
+nav a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+.new {
+  clear: right;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-family: 'Abel', sans-serif;
+  color: rgb(229,229,229);
+}
+
+h2 {
+  text-transform: lowercase;
+  font-size: 2.5rem;
+  font-variant: small-caps;
+  color: #FCCA46;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  color: #FCCA46;
+  text-align: center;
+}
+
+h4 {
+  color: #FCCA46;
+}
+
+h5 {
+  color: white;
+  font-size: 1.8rem;
+  font-variant: small-caps;
+  margin-bottom: 1rem;
+}
+
+#detailkader {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 15px 15px 15px;
+  margin-bottom: 2rem;
+  background-color: rgb(229,229,229);
+  text-align: center;
+}
+
+#detailkader > div > p {
+  color: black;
+}
+
+#reviewdetailarticle {
+  padding: 1px 15px 15px 15px;
+  margin-bottom: 2rem;
+  background-color: black;
+  text-align: center;
+}
+
+#reviewarticle {
+  padding: 1px 15px 15px 15px;
+  margin-bottom: 2rem;
+  background-color: black;
+  text-align: center;
+}
+
+#ledenarticle {
+  padding: 1px 1px 15px 15px;
+  margin-bottom: 2rem;
+  background-color: #FCCA46;
+  text-align: center;
+}
+
+#ledenarticle > p {
+  color: black;
+}
+
+#buttonreview {
+  width: 45rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4.5rem;
+}
+
+#buttonreview > a:nth-child(1), #buttonreview > a:nth-child(2) {
+
+  color: black;
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: rgb(229,229,229);
+  padding: 1rem;
+}
+#buttonreview > a:nth-child(1):hover, #buttonreview > a:nth-child(2):hover {
+  background-color: #FCCA46;
+}
+
+.reviewboxfilm {
+  display: grid;
+}
+
+.reviewmakenbox {
+  display: grid;
+}
+
+.reviewdetailbox {
+  display: grid;
+}
+
+#fotodetail {
+  display: block;
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+input {
+  display: block;
+  background-color: rgb(60,60,59);
+  font-size: 1em;
+  width: 40rem;
+  color: rgb(229,229,229);
+}
+
+.film > input {
+  display: block;
+  background-color: rgb(60,60,59);
+  font-size: 1em;
+  width: 40rem;
+  color: black;
+}
+
+label {
+  color: white;
+  font-variant: small-caps;
+  font-size: 2rem;
+}
+
+.film > label {
+  color: black;
+  font-variant: small-caps;
+  font-size: 2rem;
+}
+
+input[type="submit"] {
+  width: 20rem;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+	padding: 1rem 1rem;
+	background-color: rgb(229,229,229);
+  color: black;
+  font-variant: small-caps;
+}
+
+#review {
+  height: 8rem;
+}
+
+article img {
+  display: block;
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #FCCA46;
+  margin-top: 12rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+
+footer > p {
+  font-family: 'Karla', sans-serif !important;
+}
+
+.footnavi > nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  height: 3rem;
+}
+
+.footnavi > nav a {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footnavi > nav a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+@supports (grid-area: auto) {
+      @media (min-width: 750px) {
+        .overzichtgrid {
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1rem;
+        }
+        #detailkader {
+          grid-template-columns: 1fr 1fr;
+        }
+        h1, h2 {
+          text-align: center;
+        }
+        .reviewboxfilm {
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1rem;
+        }
+        .reviewdetailbox {
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1rem;
+        }
+	   }
+}
+@supports (grid-area: auto) {
+      @media (min-width: 1150px) {
+        .overzichtgrid {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        #detailkader {
+          grid-template-columns: 1fr 1fr;
+        }
+        .reviewboxfilm {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        .reviewmakenbox {
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1rem;
+        }
+        .reviewdetailbox {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+	   }
+}

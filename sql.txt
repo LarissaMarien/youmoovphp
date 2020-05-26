@@ -1,0 +1,53 @@
+CREATE DATABASE youmoov CHARSET utf8
+
+create table leden(
+    id INT NOT NULL AUTO_INCREMENT,
+    email TEXT,
+    gebruikersnaam TEXT,
+    paswoord VARCHAR(32),
+    primary key (id)
+)
+
+CREATE TABLE film (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  titel text NOT NULL,
+  acteurs text,
+  regisseur text,
+  jaar int(11) DEFAULT NULL,
+  genre text,
+  movieposter varchar(256) DEFAULT NULL,
+  gebruiker_id INTEGER,
+  aangemaakt TIMESTAMP,
+	PRIMARY KEY (`id`)
+)
+
+CREATE TABLE serie (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  titel text NOT NULL,
+  acteurs text,
+  regisseur text,
+  jaar int(11) DEFAULT NULL,
+  genre text,
+  seizoenen INTEGER,
+  serieposter varchar(256) DEFAULT NULL,
+  gebruiker_id INTEGER,
+  aangemaakt TIMESTAMP,
+	PRIMARY KEY (`id`)
+)
+
+CREATE TABLE review (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  film_id int(11) NOT NULL,
+  reviewpost text,
+  gebruiker_id INTEGER,
+  datum timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`)
+)
+
+CREATE TABLE reviewserie (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  serie_id int(11) NOT NULL,
+  reviewpost text,
+  datum timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`)
+)
